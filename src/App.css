@@ -1,0 +1,59 @@
+body {
+  padding: 20px 40px;
+  background: #ccc;
+}
+input {
+  display: block;
+}
+.app {
+  display: flex;
+}
+.signup {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+.photo {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-color: #000;
+  margin-bottom: 15px;
+}
+
+.photo button {
+  margin-bottom: 7px;
+}
+
+/* navbar============== */
+.navbar {
+  width: 30%;
+  background-color: red;
+  padding: 5px 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  flex-wrap: nowrap;
+}
+.link {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+.link:hover {
+  transition: 0.5s;
+  padding: 5px 20px;
+  background-color: blue;
+  color: #ccc;
+  text-decoration: none;
+  border-radius: 5px;
+}
